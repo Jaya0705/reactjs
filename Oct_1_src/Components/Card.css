@@ -1,0 +1,31 @@
+.card {
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition : 0.2s;
+    background-color: white;
+    width : 25%;
+    min-height: 200px; 
+    float: left;
+    margin-top : 25px;
+    margin-left: 80px;
+    margin-bottom : 50px;
+}
+
+.card-h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family : "Trebuchet MS"
+
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    background-color: skyblue;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    padding-inline-start : 0px;
+    display: flex;
+    flex-basis: auto
+}
