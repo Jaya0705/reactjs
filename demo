@@ -5,3 +5,10 @@ C:\Users\vn50i80>netstat -ano|findstr "PID :8080"
 
 C:\Users\vn50i80>taskkill /pid 8936 /f
 SUCCESS: The process with PID 8936 has been terminated.
+
+
+@Bean
+	 public TaskScheduler taskScheduler() {
+	        return new ConcurrentTaskScheduler();
+	    }
+	 
