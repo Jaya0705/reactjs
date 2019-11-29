@@ -1,0 +1,7 @@
+C:\Users\vn50i80>netstat -ano|findstr "PID :8080"
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    10.96.230.131:3097     161.173.255.17:8080    ESTABLISHED     8936
+  TCP    10.96.230.131:3098     161.173.255.17:8080    ESTABLISHED     8936
+
+C:\Users\vn50i80>taskkill /pid 8936 /f
+SUCCESS: The process with PID 8936 has been terminated.
