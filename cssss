@@ -1,0 +1,25 @@
+
+.linkstyle{
+    color : rgb(0, 0, 0);
+    font-family : Trebuchet MS;
+    font-size : 20px;
+    text-decoration: none;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-left : 10px;
+    
+}
+
+.linkstyle b:hover {
+  background-color: rgb(205, 11, 253);
+  color: white;
+  transition : 0.2s;
+  padding-left : 10px;
+  padding-right : 10px;
+}
+
+
+.linkstyle b:active {
+  background-color: rgb(205, 11, 253);
+  color:  white;
+}
